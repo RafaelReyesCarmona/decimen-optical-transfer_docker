@@ -1,4 +1,6 @@
-# Decimen Optical Transfer: fountain-coded QR file transfer
+<div align=center><img src="docs/decimen.png" alt="Decimen Optical Transfer. Docker version."></div>
+
+# Decimen Optical Transfer: fountain-coded QR file transfer. Docker version.
 
 Send a file between two devices using nothing but a **screen and a camera**.
 One page displays the file as an endless stream of animated QR codes; another
@@ -18,11 +20,15 @@ in the sender's settings) at a comfortable rate.
 </p>
 <p align="center"><em>Mid-transfer: a phone pulling a 2 MB image out of the air at 129 KB/s.</em></p>
 
-## Try it
+## Build Docker Image 
 
 ```bash
-npm install
-npm run dev
+docker compose up --build
+```
+
+### Docker run
+```bash
+docker compose up
 ```
 
 - On the **sending** device (a laptop is ideal): open
