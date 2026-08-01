@@ -1,4 +1,6 @@
-# Decimen Optical Transfer: fountain-coded QR file transfer
+<div align=center><img src="docs/decimen.png" alt="Decimen Optical Transfer. Docker version."></div>
+
+# Decimen Optical Transfer: fountain-coded QR file transfer. Docker version.
 
 Send a file between two devices using nothing but a **screen and a camera**.
 One page displays the file as an endless stream of animated QR codes; another
