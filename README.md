@@ -18,11 +18,15 @@ in the sender's settings) at a comfortable rate.
 </p>
 <p align="center"><em>Mid-transfer: a phone pulling a 2 MB image out of the air at 129 KB/s.</em></p>
 
-## Try it
+## Build Docker Image 
 
 ```bash
-npm install
-npm run dev
+docker compose up --build
+```
+
+### Docker run
+```bash
+docker compose up
 ```
 
 - On the **sending** device (a laptop is ideal): open
